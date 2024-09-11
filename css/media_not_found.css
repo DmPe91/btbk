@@ -1,0 +1,125 @@
+@media screen and (max-width: 768px) {
+
+    /* header */
+    .header, .not-found, .footer-container{
+        width: 335px;
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .main-wrapper {
+        overflow: hidden;
+    }
+    
+    .header-mobile_menu {
+        margin-top: 20px;
+        
+        display: block;
+    }
+     .header__contacts, .header__menu {
+        display: none;
+    }
+    .header__logo {
+        margin-top: 20px;
+        
+    }
+    .header__img--logo {
+        
+        width: 80px;
+        height: auto;
+    }
+    .not-found {
+        
+        padding-bottom: 90px;
+    }
+    .not-found__btn {
+        width: 330px;
+    }
+    .number-404{
+        font-size: 178px;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+    .number-404::after{
+        
+        font-size: 28px;
+        
+    }
+  .animation-btn {
+    margin-top: 30px;
+    width: 335px;
+  }
+  .footer-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.footer-lang-list {
+    padding-top: 3%;
+}
+.footer__list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid grey;
+}
+.footer__element {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid grey;
+    border-left: none;
+    padding-left: 0;
+}
+.footer__element > ul > li {
+    padding-top: 5%;
+}
+.footer__list--tel {
+    column-gap: 4%; 
+}
+.footer__list--tel > img {
+    margin-bottom: 4.5%;
+}
+.footer__author--company {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+            margin-top: 30px;
+            
+}
+.footer__author--company > div {
+    margin-bottom: 30px;
+}
+.footer__element, .footer__list {
+    border-right: none;
+}
+.footer__author {
+justify-content: flex-start;
+}
+.footer__element--title {
+    margin-top: 30px;
+}
+.footer__list--tel > img {
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+.footer__element > ul > li {
+    margin-top: 20px;
+    padding-top: 0;
+}
+.mobile {
+    display: flex;
+  }
+  .mobile > span {
+    padding: 1% 6%;
+    height: max-content;
+  }
+.desktop {
+    display: none;
+}
+}
