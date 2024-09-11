@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,shrink-to-fit=no"
+    />
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/intl-tel-input@23.0.10/build/css/intlTelInput.css"
+    />
+    <link rel="stylesheet" href="fonts/font.css" />
+    <link rel="stylesheet" href="css/contacts.css" />
+    <link rel="stylesheet" href="css/media_contacts.css" />
+    <link rel="stylesheet" href="css/mobile_menu.css" />
+    <link rel="stylesheet" href="css/modal-form.css">
+    <link rel="stylesheet" href="css/media_modal-form.css">
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@23.0.10/build/js/intlTelInput.min.js"></script>
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=66938b4d-ba70-4172-9889-919f26624532&lang=ru_RU"
+      type="text/javascript"
+    ></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>
+    <script src="js/mobile_menu.js"></script>
+    <script src="js/lang_btn.js"></script>
+    <script src="js/modal_bootstrap.js"></script>
+
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <header>
+        <div class="header container col-xl-12">
+          <div class="header-container">
+            <div class="header__logo">
+              <a href="/"
+                ><img
+                  src="img/portfolio/logo-dark.png"
+                  alt="Brick"
+                  class="logo_img"
+              /></a>
+            </div>
+            <div class="header__menu">
+              <nav>
+                <ul class="header__menu--list">
+                  <li><a href="portfolio.html">Потрфолио</a></li>
+                  <li><a href="services.html">Услуги</a></li>
+                  <li><a href="team.html">О нас</a></li>
+                  <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header__contacts">
+              <ul class="header-contacts__list">
+                <li><a href="#" class="telephone">8 (800) 550-23-20</a></li>
+                <li class="header-social-media">
+                  <div class="instagramm">
+                    <a href="/"
+                      ><img src="img/portfolio/instagram-dark.svg" alt="iNSTA"
+                    /></a>
+                  </div>
+                  <div class="vk">
+                    <a href="/"
+                      ><img src="img/portfolio/vk-dark.svg" alt="vk"
+                    /></a>
+                  </div>
+                </li>
+
+                <li class="lang-list_black">
+                  <span class="lang-btn_black lang-btn_active--black">EN</span
+                  ><span class="lang-btn_black">RU</span>
+                </li>
+              </ul>
+            </div>
+            <div class="header-mobile_menu">
+              <div class="header-mobile_icon js-menu-triger">
+                <img src="img/mobile-dark-menu-icon.svg" />
+              </div>
+              <div class="menu">
+                <div class="menu-popup">
+                  <a class="mobile-menu-logo" href="index.html"
+                    ><img
+                      src="img/logo2.png"
+                      alt="Brick"
+                      class="mobile__img--logo"
+                  /></a>
+                  <a class="menu-close" href="#"
+                    ><img src="img/close_mobile_menu.svg" alt="close"
+                  /></a>
+                  <ul>
+                    <li><a href="portfolio.html">Портфолио</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="team.html">О нас</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                  </ul>
+                  <div class="mobile-contacts">
+                    <div class="mobile-contacts__item">
+                      <div><a href="#">8 (800) 550-23-20</a></div>
+                      <div>
+                        <a href="/"
+                          ><img
+                            src="img/instagram.svg"
+                            alt="iNSTA"
+                            class="instagramm" /></a
+                        ><a href="/"
+                          ><img src="img/vk.svg" alt="vk" class="vk"
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="header-lang-list">
+                      <span class="lang-btn lang-btn_active">EN</span
+                      ><span class="lang-btn">RU</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="contacts container col-xl-12">
+          <div class="breadcrumbs">
+            <ul>
+              <a href="#"><li class="breadcrumbs__black">Главная</li></a>
+              <li class="breadcrumbs__black">-</li>
+              <a href="#"><li>Контакты</li></a>
+            </ul>
+          </div>
+          <div class="h1">Контакты</div>
+        </div>
+      </section>
+      <section>
+        <div class="contact-blocks container col-xl-12">
+          <div class="contact-blocks__info">
+            <div class="contact-info__block border-bottom-custom">
+              <div class="contact-info__block--title">Связаться с нами</div>
+              <div class="info">
+                <div class="info__text"><a href="#">8 (800) 550-23-20</a></div>
+                <div class="info__text">d.teplykh@bricktobrick.ru</div>
+              </div>
+            </div>
+            <div class="contact-info__block border-bottom-custom">
+              <div class="contact-info__block--title">Адрес</div>
+              <div class="info">
+                <div class="info__text">г. Краснодар</div>
+                <div class="info__text">ул. Красных Партизан, 367</div>
+              </div>
+            </div>
+            <div class="contact-info__block">
+              <div class="contact-info__block--title">Мы в соцсетях</div>
+              <div class="info">
+                <a href="/"
+                  ><img
+                    src="img/portfolio/instagram-dark.svg"
+                    alt="iNSTA"
+                    class="instagramm_contact"
+                /></a>
+                <a href="/"
+                  ><img src="img/portfolio/vk-dark.svg" alt="vk" class="vk"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="container-map">
+            <div id="map"></div>
+          </div>
+        </div>
+      </section>
+      <section class="white-background">
+        <div class="connection container col-xl-12">
+          <div class="connection-item">
+            <div class="connection-item__description">
+              <div class="connection-item__title">
+                Можете отправить нам сообщение
+              </div>
+              <div class="connection-item__text--white">
+                Заполните форму и наш специалист свяжется с вами, чтобы обсудить
+                ваш вопрос.
+              </div>
+            </div>
+            <div class="connection-item__tel">
+              <form id="catalog-form" onsubmit="process(event)">
+                <div class="connection-item__input">
+                  <input id="name" type="text" name="name" placeholder="Имя" style="color: white;" />
+                </div>
+                <div class="connection-item__input">
+                  <input
+                    id="phone"
+                    type="tel"
+                    name="phone"
+                    placeholder="(_ _ _) _ _ _ - _ _ _  - _ _"
+                    style="color: white;"
+                    />
+                </div>
+                <div class="connection-item__input">
+                  <input
+                    id="message"
+                    type="text"
+                    name="message"
+                    placeholder="Cообщение"
+                    style="color: white;"
+                  />
+                </div>
+                <div class="connection-item__text">
+                  Нажав на кнопку, я даю согласие на обработку персональных
+                  данных
+                </div>
+                <button class="animation-btn">отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-container container col-xl-12">
+          <div class="footer-block">
+            <div class="footer__list">
+              <div class="footer__list--logo">
+                <img src="img/logo2.png" />
+              </div>
+              <div  id="js-modal-phone-open" class="footer__list--number">
+                <p><a href="#">8 (800) 550-23-20</a></p>
+                <div class="footer__list--tel">
+                  <p>Заказать звонок</p>
+                  <img src="img/phone-call 1.svg" />
+                </div>
+              </div>
+              <div class="footer__list--social-media">
+                <a href=""><img src="img/vk.svg" /></a>
+                <a href=""><img src="img/instagram.svg" alt="" /></a>
+              </div>
+              <div class=" footer-lang-list lang-list mobile">
+                <span class="lang-btn lang-btn_active">EN</span>
+                <span class="lang-btn">RU</span>
+            </div>
+            </div>
+            <div class="footer__element">
+              <div class="footer__element--title">Наши проекты</div>
+              <ul>
+                <li><a href="">Архитектура</a></li>
+                <li><a href="">Дизайн интерьера</a></li>
+                <li><a href="">Благоустройство</a></li>
+                <li><a href="">Дизайн для HoReCa</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__element">
+              <div class="footer__element--title">Услуги</div>
+              <ul>
+                <li><a href="">Архитектура</a></li>
+                <li><a href="">Дизайн интерьера</a></li>
+                <li><a href="">Благоустройство</a></li>
+                <li><a href="">Дизайн для HoReCa</a></li>
+              </ul>
+            </div>
+            <div class="footer__element">
+              <div class="footer__element--title">Brick to Brick</div>
+              <ul>
+                <li><a href="team.html">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__author">
+            <div class="footer-lang-list lang-list desktop">
+              <span class="lang-btn lang-btn_active">EN</span
+              ><span class="lang-btn">RU</span>
+            </div>
+            <div class="footer__author--company">
+              <div>Brick to Brick © 2024</div>
+              <div>Политика конфиденциальности</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div id="modal-tel" class="modal fade">
+        <div class="modal-dialog  modal-dialog-centered">
+         <div class="modal-content">
+         <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+             <h5 class="modal-title">Заказать звонок</h5>
+             <p>Оставьте заявку и менеджер свяжется с вами в ближайшее время.</p>
+             <form id="modal-form">
+                 <input type="text" name="modal_name" placeholder="Ваше имя"  class="modal-input_name"/>
+                 <input id="phone_modal" type="tel" name="phone" placeholder="(_ _ _) _ _ _ - _ _ _  - _ _" />
+                 <button class="animation-btn--black" type="submit">отправить</button>
+                 <div class="modal-footer_text">
+                 Нажав на кнопку, я даю согласие на обработку персональных данных</div>
+             </form>
+         </div>
+         </div>
+        </div>
+     </div>
+     <div id="modal-notification" class="modal fade">
+         <div class="modal-dialog  modal-dialog-centered">
+         <div class="modal-content">
+         <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+             <h5 class="modal-title">Спасибо за заявку</h5>
+             <p>Менеджер свяжется с вами в ближайшее время.</p>
+         </div>
+         </div>
+         </div>
+     </div>
+     </div>
+    </div>
+  </body>
+  <script src="js/map.js"></script>
+  <script src="js/input_telephone.js"></script>
+</html>
