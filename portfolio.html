@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" type="image/png" href="img/favicon-32x32.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@23.0.10/build/css/intlTelInput.css">
+        <link rel="stylesheet" href="fonts/font.css">
+        <link rel="stylesheet" href="css/portfolio.css">
+        <link rel="stylesheet" href="css/media_portfolio.css">
+        <link rel="stylesheet" href="css/mobile_menu.css">
+        <link rel="stylesheet" href="css/modal-form.css">
+        <link rel="stylesheet" href="css/media_modal-form.css">
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@23.0.10/build/js/intlTelInput.min.js"></script> 
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+        crossorigin="anonymous"></script>
+        <script src="js/mobile_menu.js"></script>
+        <script src="js/flter_porfolio.js"></script>
+        <script src="js/lang_btn.js"></script>
+        <script src="js/mobile.js"></script>
+        <script src="js/modal_bootstrap.js"></script>
+    </head>
+    <body>
+     <div class="main-wrapper">
+        <header>
+            
+            <div class="header container col-xl-12">
+                <div class="header-container">
+                    <div class="header__logo"><a href="/"><img src="img/portfolio/logo-dark.png" alt="Brick" class="img-logo"></a></div>
+                    <div class="header-menu">
+                    <nav>
+                     <ul class="header-menu__list">
+                        <li><a href="portfolio.html">Потрфолио</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="team.html">О нас</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                    </nav>
+                   </div>
+                    <div class="header-contacts">
+                        <ul class="header-contacts__list">
+                            <li><a href="#" class="telephone">8 (800) 550-23-20</a></li>
+                            <li class="header-social-media"><div class="instagramm"><a href="/" ><img src="img/portfolio/instagram-dark.svg" alt="iNSTA" ></a></div><div class="vk"><a href="/" ><img src="img/portfolio/vk-dark.svg" alt="vk"></a></div></li>
+                            
+                            <li class="lang-list_black"><span class="lang-btn_black lang-btn_active--black">EN</span><span class="lang-btn_black">RU</span></li>
+                        </ul>
+                    </div>
+                    <div class="header-mobile_menu">
+                        <div class="header-mobile_icon js-menu-triger"><img src="img/mobile-dark-menu-icon.svg"></div>
+                        <div class="menu">
+                            <div class="menu-popup">
+                                <a class="mobile-menu-logo" href="index.html"><img src="img/logo2.png" alt="Brick" class="mobile__img--logo"></a>
+                                <a class="menu-close" href="#"><img src="img/close_mobile_menu.svg" alt="close"></a>
+                                <ul>
+                                    <li><a href="portfolio.html">Портфолио</a></li>
+                                    <li><a href="services.html">Услуги</a></li>		
+                                    <li><a href="team.html">О нас</a></li>
+                                    <li><a href="contacts.html">Контакты</a></li>
+                                </ul>
+                                <div class="mobile-contacts">
+                                    <div class="mobile-contacts__item">
+                                        <div><a href="#">8 (800) 550-23-20</a></div>
+                                        <div><a href="/" ><img src="img/instagram.svg" alt="iNSTA" class="instagramm"></a><a href="/" ><img src="img/vk.svg" alt="vk" class="vk"></a></div>
+                                    </div>
+                                    <div class="header-lang-list"><span class="lang-btn lang-btn_active">EN</span><span class="lang-btn">RU</span></div>
+                                </div>					
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            
+        </header>
+        <section>
+            <div class="portfolio container col-xl-12">
+                <div class="breadcrumbs">
+                    <ul>
+                        <li><a href="#"class="breadcrumbs__black" >Главная</a></li>
+                        <li class="breadcrumbs__black"> - </li>
+                        <li><a href="#">Портфолио</a></li>
+                    </ul>
+                </div>
+           
+            <div class="h1">Портфолио</div> 
+            <div class="portfolio-menu">
+                
+                <div class="portfolio-menu__item active js-button" data-filter="js-all">Все проекты</div>
+                <div class="portfolio-menu__item  js-button" data-filter="js-architecture">Архитектура</div>
+               
+                
+                <div class="portfolio-menu__item  js-button" data-filter="js-design">Дизайн интерьера</div>
+                <div class="portfolio-menu__item  js-button" data-filter="js-improvement">Благоустройство</div>
+                
+                <div class="portfolio-menu__item  js-button" data-filter="js-horeca">Дизайн для HoReCa</div>
+            </div>
+            <div class="portfolio-item">
+                <a href="#"><div class="portfolio-item__element js-elem js-architecture">
+                    <div class="element__img--big architecture js-elem js-architecture">
+                        <div class="element__img--title">Архитектура</div> 
+                    </div>
+                    <div class="element__description">
+                        <div class="element__area">10 Га</div>
+                        <div class="element__title">Коттеджный посёлок</div>
+                    </div>
+                   </div>
+                </a>
+                   <div class="portfolio-item__elements">
+                   
+                    <a href="#" class="js-elem js-design">
+                    <div class="portfolio-item__element">
+                        <div class="element__img design">
+                            <div class="element__img--title">Дизайн интерьера</div>
+                        </div>
+                        <div class="element__description">
+                            <div class="element__area">600 м2</div>
+                            <div class="element__title">Конференц зал в ЖК “Девелопмент Плаза”</div>
+                        </div>
+                    </div>
+                    </a>
+                    <a  href="#" class="js-elem js-improvement"><div class="portfolio-item__element">
+                        <div class="element__img improvement">
+                            <div class="element__img--title">Благоустройство</div>
+                        </div>
+                        <div class="element__description">
+                            <div class="element__area">10 Га</div>
+                            <div class="element__title">Проект ландшафтного дизайна для ЖК “Высочество”</div>
+                        </div>
+                    </div>
+                    </a>
+                   
+                   
+                    <a href="#" class="js-elem js-horeca"><div class="portfolio-item__element">
+                        <div class="element__img horeca">
+                            <div class="element__img--title">Дизайн для HoReCa</div>
+                        </div>
+                        <div class="element__description">
+                            <div class="element__area">10 Га</div>
+                            <div class="element__title">Дизайн-проект средиземноморского ресторана</div>
+                        </div>
+                    </div>
+                    </a>
+                    <a href="#" class="js-elem js-design">
+                    <div class="portfolio-item__element">
+                        <div class="element__img design">
+                            <div class="element__img--title">Дизайн интерьера</div>
+                        </div>
+                        <div class="element__description">
+                            <div class="element__area">600 м2</div>
+                            <div class="element__title">Конференц зал в ЖК “Девелопмент Плаза”</div>
+                        </div>
+                    </div>
+                    </a>
+                   
+                   
+                    <a href="#" class="js-elem js-improvement"><div class="portfolio-item__element">
+                        <div class="element__img improvement">
+                            <div class="element__img--title">Благоустройство</div>
+                        </div>
+                        <div class="element__description">
+                            <div class="element__area">10 Га</div>
+                            <div class="element__title">Проект ландшафтного дизайна для ЖК “Высочество”</div>
+                        </div>
+                    </div>
+                    </a>
+                    <a href="#" class="js-elem js-horeca"><div class="portfolio-item__element">
+                        <div class="element__img horeca">
+                            <div class="element__img--title">Дизайн для HoReCa</div>
+                        </div>
+                        <div class="element__description">
+                            <div class="element__area">10 Га</div>
+                            <div class="element__title">Дизайн-проект средиземноморского ресторана</div>
+                        </div>
+                    </div>
+                    </a>
+                   
+                   
+                   <a href="#" class="js-elem js-design"><div class="portfolio-item__element">
+                        <div class="element__img design">
+                            <div class="element__img--title">Дизайн интерьера</div>
+                        </div>
+                        <div class="element__description">
+                            <div class="element__area">600 м2</div>
+                            <div class="element__title">Конференц зал в ЖК “Девелопмент Плаза”</div>
+                        </div>
+                    </div>
+                    </a>
+                    <a href="#" class="js-elem js-improvement"><div class="portfolio-item__element">
+                        <div class="element__img improvement">
+                            <div class="element__img--title">Благоустройство</div>
+                        </div>
+                        <div class="element__description">
+                            <div class="element__area">10 Га</div>
+                            <div class="element__title">Проект ландшафтного дизайна для ЖК “Высочество”</div>
+                        </div>
+                    </div>
+                    </a>
+                   
+                   
+                    <a href="#" class="js-elem js-horeca"><div class="portfolio-item__element">
+                        <div class="element__img horeca">
+                            <div class="element__img--title">Дизайн для HoReCa</div>
+                        </div>
+                        <div class="element__description">
+                            <div class="element__area">10 Га</div>
+                            <div class="element__title">Дизайн-проект средиземноморского ресторана</div>
+                        </div>
+                    </div>
+                    </a>
+                    <a href="#" class="js-elem js-design"><div class="portfolio-item__element">
+                        <div class="element__img design">
+                            <div class="element__img--title">Дизайн интерьера</div>
+                        </div>
+                        <div class="element__description">
+                            <div class="element__area">600 м2</div>
+                            <div class="element__title">Конференц зал в ЖК “Девелопмент Плаза”</div>
+                        </div>
+                    </div>
+                    </a>
+                   
+                   
+                    <a href="#" class="js-elem js-improvement"><div class="portfolio-item__element">
+                        <div class="element__img improvement">
+                            <div class="element__img--title">Благоустройство</div>
+                        </div>
+                        <div class="element__description">
+                            <div class="element__area">10 Га</div>
+                            <div class="element__title">Проект ландшафтного дизайна для ЖК “Высочество”</div>
+                        </div>
+                    </div>
+                    </a>
+                    <a href="#" class="js-elem js-horeca"><div class="portfolio-item__element">
+                        <div class="element__img horeca">
+                            <div class="element__img--title">Дизайн для HoReCa</div>
+                        </div>
+                        <div class="element__description">
+                            <div class="element__area">10 Га</div>
+                            <div class="element__title">Дизайн-проект средиземноморского ресторана</div>
+                        </div>
+                    </div>
+                    </a>
+                   
+                   
+                    <a href="#" class="js-elem js-design"><div class="portfolio-item__element">
+                        <div class="element__img design">
+                            <div class="element__img--title">Дизайн интерьера</div>
+                        </div>
+                        <div class="element__description">
+                            <div class="element__area">600 м2</div>
+                            <div class="element__title">Конференц зал в ЖК “Девелопмент Плаза”</div>
+                        </div>
+                    </div>
+                    </a>
+                    <a href="#" class="js-elem js-improvement"><div class="portfolio-item__element">
+                        <div class="element__img improvement">
+                            <div class="element__img--title">Благоустройство</div>
+                        </div>
+                        <div class="element__description">
+                            <div class="element__area">10 Га</div>
+                            <div class="element__title">Проект ландшафтного дизайна для ЖК “Высочество”</div>
+                        </div>
+                    </div></a>
+                   
+            </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="contact-catalog container col-xl-12">
+                <div class="contact-catalog__background--img">
+                    <div class="contacts">
+                        <div class="contacts__tel">
+                            <div class="contacts__tel--title">
+                                Получите каталог проектов за 2023 г.
+                            </div>    
+                            <div class="contacts__tel--text">
+                                Оставьте заявку и мы отправим вам каталог в WhatsApp
+                            </div> 
+                            <form id="catalog-form">
+                                <input id="phone" type="tel" name="phone" placeholder="(_ _ _) _ _ _ - _ _ _  - _ _" />
+                                <button class="animation-btn--black portfolio-js-button__mobile" type="submit">отправить</button>
+                                <div class="contacts__tel--button portfolio-js-text__mobile">Нажав на кнопку, я даю согласие на обработку персональных данных</div>
+                              </form>
+                        </div>
+                        <div class="contacts__catalog--img"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-container container  col-xl-12">
+                <div class="footer-block">
+                <div class="footer__list">
+                    <div class="footer__list--logo">
+                    <img src="img/logo2.png">
+                    </div>  
+                    <div class="footer__list--number"><p><a href="#">8 (800) 550-23-20</a></p>
+                        <div id="js-modal-phone-open" class="footer__list--tel"><p>Заказать звонок</p><img src="img/phone-call 1.svg"></div>
+                    </div>
+                    <div class="footer__list--social-media">
+                      <a href=""><img src="img/vk.svg"></a>  
+                      <a href=""><img src="img/instagram.svg" alt=""></a> 
+                    </div>
+                    <div class=" footer-lang-list lang-list mobile"><span class="lang-btn lang-btn_active">EN</span><span class="lang-btn">RU</span>
+                    </div>
+                </div>
+                <div class="footer__element">
+                       <div class="footer__element--title">Наши проекты</div>
+                       <ul>
+                        <li><a href="">Архитектура</a></li>
+                        <li><a href="">Дизайн интерьера</a></li>
+                        <li><a href="">Благоустройство</a></li>
+                        <li><a href="">Дизайн для HoReCa</a></li>
+                       </ul>
+                        </div>
+                        
+                        <div class="footer__element">
+                            <div class="footer__element--title">Услуги</div>
+                            <ul>
+                                <li><a href="">Архитектура</a></li>
+                                <li><a href="">Дизайн интерьера</a></li>
+                                <li><a href="">Благоустройство</a></li>
+                                <li><a href="">Дизайн для HoReCa</a></li>
+                               </ul>
+                        </div>
+                        <div class="footer__element">
+                            <div class="footer__element--title">Brick to Brick</div>
+                            <ul>
+                                <li><a href="team.html">О нас</a></li>
+                                <li><a href="contacts.html">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                <div class="footer__author">
+                    <div class=" footer-lang-list lang-list desktop"><span class="lang-btn lang-btn_active">EN</span><span class="lang-btn">RU</span>
+                    </div>
+                      <div class="footer__author--company">
+                        <div>Brick to Brick © 2024</div>
+                        <div>Политика конфиденциальности</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+     </div>
+     <div id="modal-tel" class="modal fade">
+        <div class="modal-dialog  modal-dialog-centered">
+         <div class="modal-content">
+         <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+             <h5 class="modal-title">Заказать звонок</h5>
+             <p>Оставьте заявку и менеджер свяжется с вами в ближайшее время.</p>
+             <form id="modal-form">
+                 <input type="text" name="modal_name" placeholder="Ваше имя"  class="modal-input_name"/>
+                 <input id="phone_modal" type="tel" name="phone" placeholder="(_ _ _) _ _ _ - _ _ _  - _ _" />
+                 <button class="animation-btn--black" type="submit">отправить</button>
+                 <div class="modal-footer_text">
+                 Нажав на кнопку, я даю согласие на обработку персональных данных</div>
+             </form>
+         </div>
+         </div>
+        </div>
+     </div>
+     <div id="modal-notification" class="modal fade">
+         <div class="modal-dialog  modal-dialog-centered">
+         <div class="modal-content">
+         <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+             <h5 class="modal-title">Спасибо за заявку</h5>
+             <p>Менеджер свяжется с вами в ближайшее время.</p>
+         </div>
+         </div>
+         </div>
+     </div>
+    </div>
+    </body>
+    <script src="js/input_telephone.js"></script>
+</html>
