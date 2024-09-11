@@ -1,0 +1,88 @@
+.mobile__img--logo {
+  margin: 0;
+  width: 90px;
+  height: auto;
+}
+.mobile-menu-logo {
+  display: block;
+  left: 15px;
+  top: 15px;
+  position: absolute;
+}
+.menu-close {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 100;
+}
+.menu-popup {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  display: none;
+  background: #0f0f10;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0;
+  box-sizing: border-box;
+  padding: 0;
+  z-index: 9999;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.menu-popup ul {
+  margin: 120px 20px;
+  padding: 0;
+}
+.menu-popup li {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+.menu-popup li a {
+  font-size: 18px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.4;
+  text-decoration: none;
+}
+.body_pointer * {
+  cursor: pointer;
+}
+.mobile-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  justify-content: space-between;
+  width: 335px;
+  
+}
+
+.mobile-contacts__item > div {
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+.mobile-contacts__item > div > a > img {
+  margin-right: 5%;
+}
+.mobile-contacts > .header-lang-list {
+  margin-right: 10px;
+  align-self: flex-end;
+  margin-bottom: 30px;
+}
+.lang-btn {
+  color: white;
+  border: 1px solid white;
+  padding: 1% 12%;
+  cursor: pointer;
+}
+.lang-btn_active {
+  color: black;
+  background: white;
+}
