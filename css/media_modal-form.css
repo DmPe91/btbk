@@ -1,0 +1,24 @@
+@media screen and (max-width: 480px) {
+    .modal-dialog {
+        width: 335px;
+        margin: 0 auto !important;
+    }
+    .modal-input_name, #phone_modal {
+        width: 100%;
+    }
+    .modal-body {
+        padding: 16px 30px 30px 30px;
+    }
+    .modal-body > h5 {
+        font-size: 30px;
+    }
+    #modal-form >  button {
+        width: 100%;
+    }
+    .modal-body > p {
+        font-size: 13px;
+    }
+    .modal-footer_text {
+        font-size: 11px;
+    }
+ }
